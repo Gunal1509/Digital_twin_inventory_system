@@ -1,0 +1,16 @@
+.stock-item {
+  background: radial-gradient(circle,#1e293b,#020617);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  animation: glow 2s infinite alternate;
+}
+
+.low {
+  background: radial-gradient(circle,#7f1d1d,#450a0a);
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px #38bdf8; }
+  to { box-shadow: 0 0 30px #38bdf8; }
+}
