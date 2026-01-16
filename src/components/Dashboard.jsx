@@ -4,6 +4,8 @@ import Orders from "./Orders";
 import Trucks from "./Trucks";
 import AddTruck from "./AddTruck";
 import Fleet from "./Fleet";
+import TruckMap from "./TruckMap";
+
 
 
 export default function Dashboard() {
@@ -21,6 +23,9 @@ export default function Dashboard() {
 <div className="card">
   <h3>Fleet View</h3>
   <Fleet />
+</div>
+<div classame="card">
+  <h3>Truck Map</h3>
 </div>
     </div>
   );
